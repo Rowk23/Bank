@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250407193618_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250407193618_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408081023_dsadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408081023_dsadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408080655_dss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408080655_dss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408080356_sfaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408080356_sfaf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408075015_fas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408075015_fas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408074357_gjkds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408074357_gjkds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408073951_kk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408073951_kk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408083643_kob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408083643_kob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408082719_aaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408082719_aaaaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408082450_dsiaihgdkas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408082450_dsiaihgdkas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\dariu\\desktop\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\bank\\migrations\\20250408082200_dsajkfjhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\migrations\\20250408082200_dsajkfjhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Accounts.cs",
+              "RelativeDocumentMoniker": "bank\\Models\\Accounts.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Accounts.cs",
+              "RelativeToolTip": "bank\\Models\\Accounts.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:25:30.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "bank\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Users.cs",
+              "RelativeToolTip": "bank\\Models\\Users.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:35:55.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\appsettings.json",
+              "RelativeDocumentMoniker": "bank\\appsettings.json",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\appsettings.json",
+              "RelativeToolTip": "bank\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T07:38:22.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Transactions.cs",
+              "RelativeDocumentMoniker": "bank\\Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Transactions.cs",
+              "RelativeToolTip": "bank\\Models\\Transactions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:30:29.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "bank\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "bank\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:14:29.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250407193618_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250407193618_Initial.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250407193618_Initial.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250407193618_Initial.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250407193618_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:36:19.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "bank\\Controllers\\BankController.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Controllers\\BankController.cs",
+              "RelativeToolTip": "bank\\Controllers\\BankController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:38:17.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cards.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Cards.cs",
+              "RelativeDocumentMoniker": "bank\\Models\\Cards.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Models\\Cards.cs",
+              "RelativeToolTip": "bank\\Models\\Cards.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:30:03.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250408083643_kob.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408083643_kob.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408083643_kob.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408083643_kob.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408083643_kob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:36:43.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250408082719_aaaaa.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408082719_aaaaa.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408082719_aaaaa.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408082719_aaaaa.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408082719_aaaaa.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:27:19.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250408082450_dsiaihgdkas.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408082450_dsiaihgdkas.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408082450_dsiaihgdkas.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408082450_dsiaihgdkas.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408082450_dsiaihgdkas.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:24:50.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250408082200_dsajkfjhas.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408082200_dsajkfjhas.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408082200_dsajkfjhas.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408082200_dsajkfjhas.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408082200_dsajkfjhas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:22:00.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250408075015_fas.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408075015_fas.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408075015_fas.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408075015_fas.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408075015_fas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:50:16.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250408080356_sfaf.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408080356_sfaf.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408080356_sfaf.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408080356_sfaf.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408080356_sfaf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:03:56.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250408080655_dss.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408080655_dss.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408080655_dss.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408080655_dss.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408080655_dss.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:06:55.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250408081023_dsadas.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408081023_dsadas.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408081023_dsadas.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408081023_dsadas.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408081023_dsadas.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:10:23.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250408074357_gjkds.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408074357_gjkds.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408074357_gjkds.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408074357_gjkds.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408074357_gjkds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:43:58.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250408073951_kk.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408073951_kk.cs",
+              "RelativeDocumentMoniker": "bank\\Migrations\\20250408073951_kk.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Migrations\\20250408073951_kk.cs",
+              "RelativeToolTip": "bank\\Migrations\\20250408073951_kk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:39:51.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Program.cs",
+              "RelativeDocumentMoniker": "bank\\Program.cs",
+              "ToolTip": "C:\\Users\\dariu\\Desktop\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\bank\\Program.cs",
+              "RelativeToolTip": "bank\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:38:29.609Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

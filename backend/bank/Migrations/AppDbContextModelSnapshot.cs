@@ -49,7 +49,7 @@ namespace bank.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("UsersId");
+                    b.HasIndex("ownerId");
 
                     b.ToTable("Accounts");
                 });
@@ -94,13 +94,10 @@ namespace bank.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<int>("AccountsFROM")
+                    b.Property<int>("FROMid")
                         .HasColumnType("int");
 
-                    b.Property<int>("AccountsTO")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Accountsid")
+                    b.Property<int>("TOid")
                         .HasColumnType("int");
 
                     b.Property<double>("amount")
@@ -127,7 +124,9 @@ namespace bank.Migrations
 
                     b.HasKey("id");
 
-                    b.HasIndex("Accountsid");
+                    b.HasIndex("FROMid");
+
+                    b.HasIndex("TOid");
 
                     b.ToTable("Transactions");
                 });
@@ -177,7 +176,7 @@ namespace bank.Migrations
                 {
                     b.HasOne("bank.Models.Users", "Users")
                         .WithMany("Accounts")
-                        .HasForeignKey("UsersId")
+                        .HasForeignKey("ownerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -197,20 +196,30 @@ namespace bank.Migrations
 
             modelBuilder.Entity("bank.Models.Transactions", b =>
                 {
-                    b.HasOne("bank.Models.Accounts", "Accounts")
-                        .WithMany("Transactions")
-                        .HasForeignKey("Accountsid")
-                        .OnDelete(DeleteBehavior.Cascade)
+                    b.HasOne("bank.Models.Accounts", "TSender")
+                        .WithMany("SenderTransactions")
+                        .HasForeignKey("FROMid")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.Navigation("Accounts");
+                    b.HasOne("bank.Models.Accounts", "TReceiver")
+                        .WithMany("ReceiverTransactions")
+                        .HasForeignKey("TOid")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("TReceiver");
+
+                    b.Navigation("TSender");
                 });
 
             modelBuilder.Entity("bank.Models.Accounts", b =>
                 {
                     b.Navigation("Cards");
 
-                    b.Navigation("Transactions");
+                    b.Navigation("ReceiverTransactions");
+
+                    b.Navigation("SenderTransactions");
                 });
 
             modelBuilder.Entity("bank.Models.Users", b =>

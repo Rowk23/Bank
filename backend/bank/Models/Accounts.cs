@@ -8,13 +8,14 @@ namespace bank.Models
         [Key]
         public int id { get; set; }
         public string IBAN { get; set; }
-        [ForeignKey("User")]
+        [ForeignKey("Users")]
         public int ownerId { get; set; }
         public string currency { get; set; }
         public double balance { get; set; }
         public int UsersId { get; set; }
-        public virtual ICollection<Cards> Cards { get; } = new List<Cards>();
-        public virtual ICollection<Transactions> Transactions { get; } = new List<Transactions>();
+        public ICollection<Cards> Cards { get; } = new List<Cards>();
+        public ICollection<Transactions> SenderTransactions { get; set; } = new List<Transactions>();
+        public ICollection<Transactions> ReceiverTransactions { get; set; } = new List<Transactions>();
         public Users Users { get; set; }
     }
 }

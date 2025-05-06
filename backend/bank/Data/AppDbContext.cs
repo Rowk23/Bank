@@ -1,5 +1,6 @@
 ﻿using bank.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Text.RegularExpressions;
 
 namespace bank.Data
 {
@@ -12,5 +13,24 @@ namespace bank.Data
         public DbSet<Accounts> Accounts { get; set; }
         public DbSet<Cards> Cards { get; set; }
         public DbSet<Transactions> Transactions { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Transactions>()
+                        .HasOne(t => t.TReceiver)
+                        .WithMany(a => a.ReceiverTransactions)
+                        .HasForeignKey(t => t.TOid)
+                        .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Transactions>()
+                        .HasOne(t => t.TSender)
+                        .WithMany(a => a.SenderTransactions)
+                        .HasForeignKey(t => t.FROMid)
+                        .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<Accounts>()
+                        .HasOne(a => a.Users)
+                        .WithMany(u => u.Accounts)
+                        .HasForeignKey(a => a.ownerId);
+
+        }
     }
 }

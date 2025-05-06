@@ -1,0 +1,31 @@
+networks:
+  main:
+
+services:
+  bankdb:
+    container_name: app-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+        - 1444:1433
+    environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_SA_PASSWORD=PaSSword12345
+    
+    networks:
+        - main
+  bank:
+    container_name: bank-back
+    image: ${DOCKER_REGISTRY-}bank
+    build:
+      context: .
+      dockerfile: bank/Dockerfile
+    ports:
+        - 8080:8080
+    depends_on:
+        - bankdb
+    environment:
+        - DB_HOST=bankdb
+        - DB_NAME=bank
+        - DB_SA_PASSWORD=PaSSword12345
+    networks:
+        - main

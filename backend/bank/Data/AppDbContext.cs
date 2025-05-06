@@ -1,5 +1,7 @@
 ﻿using bank.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 using System.Text.RegularExpressions;
 
 namespace bank.Data
@@ -7,7 +9,21 @@ namespace bank.Data
     public class AppDbContext: DbContext
     {
         public AppDbContext(DbContextOptions options): base(options) 
-        { 
+        {
+            try
+            {
+                var databaseCreator = Database.GetService<IDatabaseCreator>() as RelationalDatabaseCreator;
+                if (databaseCreator != null)
+                {
+                    if (!databaseCreator.CanConnect()) databaseCreator.Create();
+                    if (!databaseCreator.HasTables()) databaseCreator.CreateTables();
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
         public DbSet<Users> Users { get; set; }
         public DbSet<Accounts> Accounts { get; set; }

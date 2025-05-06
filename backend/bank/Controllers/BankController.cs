@@ -67,7 +67,7 @@ namespace bank.Controllers
         }
         private bool userExists(long id)
         {
-            return (_appDbContext.Users?.Any(movie => movie.Id == id)).GetValueOrDefault();
+            return (_appDbContext.Users?.Any(user => user.Id == id)).GetValueOrDefault();
         }
 
         [HttpDelete("users/{id}")]

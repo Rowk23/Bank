@@ -13,6 +13,8 @@ services:
     
     networks:
         - main
+    volumes:
+        - database:/var/opt/mysql
   bank:
     container_name: bank-back
     image: ${DOCKER_REGISTRY-}bank
@@ -29,3 +31,5 @@ services:
         - DB_SA_PASSWORD=PaSSword12345
     networks:
         - main
+volumes:
+  database:

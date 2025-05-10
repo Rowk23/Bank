@@ -33,3 +33,7 @@ C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\bin\Debug\bank.pdb
 C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Facultate\An 3\Semestrul 2\II Proj\bank\backend\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll

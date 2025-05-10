@@ -1,4 +1,5 @@
 using bank.Data;
+using bank.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,7 +19,8 @@ var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User ID=s
 //builder.Services.AddDbContext<AppDbContext > (options =>
 //options.UseSqlServer(builder.Configuration.GetConnectionString("BankConnectionString")));
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connectionString));
-    
+
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 
 var app = builder.Build();

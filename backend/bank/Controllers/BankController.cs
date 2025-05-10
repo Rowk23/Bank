@@ -1,5 +1,6 @@
 ﻿using bank.Data;
 using bank.Models;
+using bank.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,13 +9,27 @@ namespace bank.Controllers
 {
     [Route("api")]
     [ApiController]
-    public class BankController : ControllerBase
+    public class BankController(IAuthService authService, AppDbContext _appDbContext) : ControllerBase
     {
-        private readonly AppDbContext _appDbContext;
-        
-        public BankController(AppDbContext appDbContext)
+
+        [HttpPost("register")]
+        public async Task<ActionResult<Users>> Register(RegisterDTO request)
         {
-            _appDbContext = appDbContext;
+            var user = await authService.RegisterAsync(request);
+            if (user is null)
+                return BadRequest("Username already exists!");
+
+            return Ok(user);
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<string>> Login(UserDto request)
+        {
+            var token = await authService.LoginAsync(request);
+            if (token is null)
+                return BadRequest("Invalid username or password.");
+
+            return Ok(token);
         }
 
         [HttpGet("users")]

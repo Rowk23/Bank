@@ -14,7 +14,7 @@ services:
     networks:
         - main
     volumes:
-        - database:/var/opt/mysql
+        - database:/var/opt/mysql/data
   bank:
     container_name: bank-back
     image: ${DOCKER_REGISTRY-}bank

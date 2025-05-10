@@ -1,6 +1,7 @@
 ﻿using bank.Data;
 using bank.Models;
 using bank.Services;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

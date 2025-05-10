@@ -3,39 +3,43 @@
   "WorkspaceRootPath": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\bank.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -44,10 +48,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\bank.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\bank.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -129,11 +129,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\appsettings.json",
               "RelativeDocumentMoniker": "bank\\appsettings.json",
@@ -141,11 +141,51 @@
               "RelativeToolTip": "bank\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T08:58:32.113Z"
+              "WhenOpened": "2025-04-09T08:58:32.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankController.cs",
+              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
+              "RelativeDocumentMoniker": "bank\\Controllers\\BankController.cs",
+              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
+              "RelativeToolTip": "bank\\Controllers\\BankController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:19:23.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-06T13:12:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
+              "RelativeDocumentMoniker": "bank\\Dockerfile",
+              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
+              "RelativeToolTip": "bank\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-06T13:12:48.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": ".dockerignore",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -158,68 +198,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BankController.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
-              "RelativeDocumentMoniker": "bank\\Controllers\\BankController.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
-              "RelativeToolTip": "bank\\Controllers\\BankController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:19:23.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "docker-compose.dcproj",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:12:42.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
-              "RelativeDocumentMoniker": "bank\\Program.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
-              "RelativeToolTip": "bank\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAABOwBAAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:17:45.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-05-06T13:12:52.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ViewState": "AgIAAKgBAAAAAAAAAIAxwLcBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-06T15:37:54.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -232,7 +224,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
+              "RelativeDocumentMoniker": "bank\\Program.cs",
+              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
+              "RelativeToolTip": "bank\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T08:17:45.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AgIAAKgBAAAAAAAAAIAxwLcBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-06T15:37:54.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "bank.http",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.http",
               "RelativeDocumentMoniker": "bank\\bank.http",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "bank\\Data\\AppDbContext.cs",
@@ -256,26 +273,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "bank",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
               "RelativeDocumentMoniker": "bank\\bank.csproj",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
               "RelativeToolTip": "bank\\bank.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T14:23:21.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
-              "RelativeDocumentMoniker": "bank\\Dockerfile",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
-              "RelativeToolTip": "bank\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:12:48.503Z"
+              "WhenOpened": "2025-05-06T14:23:21.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -478,7 +484,8 @@
               "RelativeToolTip": "bank\\bank.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T06:15:02.841Z"
+              "WhenOpened": "2025-04-09T06:15:02.841Z",
+              "EditorCaption": ""
             }
           ]
         }

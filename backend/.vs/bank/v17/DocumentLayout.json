@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -129,11 +133,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "bank\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Services\\AuthService.cs",
+              "RelativeToolTip": "bank\\Services\\AuthService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T07:38:12.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\appsettings.json",
               "RelativeDocumentMoniker": "bank\\appsettings.json",
@@ -141,25 +158,24 @@
               "RelativeToolTip": "bank\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-09T08:58:32.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T08:58:32.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BankController.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
               "RelativeDocumentMoniker": "bank\\Controllers\\BankController.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
               "RelativeToolTip": "bank\\Controllers\\BankController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T06:19:23.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -167,12 +183,11 @@
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:12:42.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T13:12:42.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
               "RelativeDocumentMoniker": "bank\\Dockerfile",
@@ -180,12 +195,11 @@
               "RelativeToolTip": "bank\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:12:48.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T13:12:48.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": ".dockerignore",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
@@ -193,12 +207,11 @@
               "RelativeToolTip": ".dockerignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:40:57.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T13:40:57.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -206,12 +219,11 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-05-06T13:12:52.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T13:12:52.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -219,12 +231,11 @@
               "RelativeToolTip": "launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-06T13:36:40.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T13:36:40.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
               "RelativeDocumentMoniker": "bank\\Program.cs",
@@ -232,12 +243,11 @@
               "RelativeToolTip": "bank\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:17:45.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T08:17:45.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
@@ -249,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "bank.http",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.http",
               "RelativeDocumentMoniker": "bank\\bank.http",
@@ -261,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "bank\\Data\\AppDbContext.cs",
@@ -273,19 +283,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "bank",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
               "RelativeDocumentMoniker": "bank\\bank.csproj",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
               "RelativeToolTip": "bank\\bank.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T14:23:21.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T14:23:21.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20250506084645_lsfka.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250506084645_lsfka.cs",
@@ -296,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "20250506084310_ssss.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250506084310_ssss.cs",
@@ -307,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20250506084352_ssssss.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250506084352_ssssss.cs",
@@ -318,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20250506084746_lsfsf.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250506084746_lsfsf.cs",
@@ -329,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Accounts.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Accounts.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Accounts.cs",
@@ -341,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Cards.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Cards.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Cards.cs",
@@ -353,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Transactions.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Transactions.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Transactions.cs",
@@ -365,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Users.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Users.cs",
@@ -377,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "20250409084845_sssgs.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409084845_sssgs.cs",
@@ -388,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "20250409085139_fsjhsff.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409085139_fsjhsff.cs",
@@ -399,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "20250409092250_gasdhgds.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409092250_gasdhgds.cs",
@@ -410,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20250409092902_gasdhgdsjjfsagsafasfsa.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
@@ -421,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20250409092604_gasdhgdsjj.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
@@ -432,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20250409092705_gasdhgdsjjfsagsa.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
@@ -443,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20250409092107_dsadas.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409092107_dsadas.cs",
@@ -454,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "20250409085431_gsgskkgs.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409085431_gsgskkgs.cs",
@@ -465,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "20250409085506_gsgskkgdfsfds.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
               "RelativeDocumentMoniker": "bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
@@ -476,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "bank.csproj",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
               "RelativeDocumentMoniker": "bank\\bank.csproj",
@@ -484,8 +493,7 @@
               "RelativeToolTip": "bank\\bank.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T06:15:02.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:15:02.841Z"
             }
           ]
         }

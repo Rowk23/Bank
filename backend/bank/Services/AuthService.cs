@@ -29,7 +29,7 @@ namespace bank.Services
         {
             var claims = new List<Claim>
             {
-                new Claim("name", user.Username),
+                new Claim("id", user.Id.ToString()),
                 new Claim("role", user.Type)
             };
 

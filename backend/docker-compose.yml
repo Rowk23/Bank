@@ -10,6 +10,7 @@ services:
     environment:
         - ACCEPT_EULA=Y
         - MSSQL_SA_PASSWORD=PaSSword12345
+        - MSSQL_PID=Developer
     
     networks:
         - main

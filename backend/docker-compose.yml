@@ -1,5 +1,6 @@
 networks:
   main:
+  front-back:
 
 services:
   bankdb:
@@ -20,7 +21,7 @@ services:
     container_name: bank-back
     build:
         context: .
-        dockerfile: bank/Dockerfile
+        dockerfile: backend/bank/Dockerfile
     ports:
         - 8080:8081
     depends_on:
@@ -31,5 +32,15 @@ services:
         - DB_SA_PASSWORD=PaSSword12345
     networks:
         - main
+        - front-back 
+  front:
+    container_name: bank-front
+    build:
+      context: ../frontend-bank
+      dockerfile: ../frontend-bank/Dockerfile
+    ports:
+        - 5176:5176
+    networks:
+        - front-back
 volumes:
   database:

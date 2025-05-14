@@ -1,1 +1,2 @@
-backend/data
+backend/data/log/**/*.gdmp
+backend/data/log/core.sqlservr.*

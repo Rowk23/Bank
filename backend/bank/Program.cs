@@ -8,10 +8,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors(o =>
 {
-    o.AddDefaultPolicy(
+    o.AddPolicy("All",
                 builder =>
                 {
-                    builder.AllowAnyOrigin();
+                    builder.AllowAnyHeader()
+                        .AllowAnyMethod()
+                        .WithOrigins("http://localhost:5173")
+                        .AllowCredentials()
+                        .SetIsOriginAllowed(_ => true);
                 });
 });
 
@@ -44,7 +48,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors();
+app.UseCors("All");
 
 app.UseAuthorization();
 

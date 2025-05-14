@@ -1,0 +1,23 @@
+sqlservr
+  Version 15.0.4430.1
+  Build ID 37179469717dc027c6b31a9272ebb49ab581e903d87c5dfcec3e801f8088993d
+  Build Type release
+  Git Version 4b05b3200
+  Built at Sun Feb 23 17:23:51 GMT 2025
+
+PAL
+  Build ID f94145ea5a529db29c0cf75b24ce4d79a7447119569f4a5c5941cb7b3e2ea327
+  Build Type release
+  Git Version e4c9e8a664
+  Built at Sun Feb 23 17:21:53 GMT 2025
+
+Packages
+  system.security                         mssql-15.0.4430.1_1_official-release
+  system.tzdb                             mssql-15.0.4430.1_1_official-release
+  system.certificates                     mssql-15.0.4430.1_1_official-release
+  secforwarderxplat                       15.0.4430.1
+  sqlservr                                15.0.4430.1
+  system.common                           10.0.17134.2145.202104262
+  system.netfx                            4.7.0.0.202104262
+  system                                  mssql-15.0.4430.1_1_official-release
+  sqlagent                                15.0.4430.1

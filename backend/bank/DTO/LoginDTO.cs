@@ -1,6 +1,6 @@
-﻿namespace bank.Models
+﻿namespace bank.DTO
 {
-    public class UserDto
+    public class LoginDTO
     {
         public string Username { get; set; }
         public string Password { get; set; }

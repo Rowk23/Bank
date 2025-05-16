@@ -1,10 +1,12 @@
 ﻿using bank.Data;
+using bank.DTO;
 using bank.Models;
 using bank.Services;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Transactions;
 
 namespace bank.Controllers
 {
@@ -13,6 +15,7 @@ namespace bank.Controllers
     public class BankController(IAuthService authService, AppDbContext _appDbContext) : ControllerBase
     {
 
+        //Authentication Endpoints
         [HttpPost("register")]
         public async Task<ActionResult<Users>> Register(RegisterDTO request)
         {
@@ -24,7 +27,7 @@ namespace bank.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<string>> Login(UserDto request)
+        public async Task<ActionResult<string>> Login(LoginDTO request)
         {
             var token = await authService.LoginAsync(request);
             if (token is null)
@@ -33,15 +36,12 @@ namespace bank.Controllers
             return Ok(token);
         }
 
-        [HttpGet("users")]
-        public async Task<ActionResult<IEnumerable<Users>>> GetUsers()
-        {
-            if(_appDbContext.Users == null)
-            {
-                return NotFound();
-            }
+        //Users endpoints
 
-            return await _appDbContext.Users.ToListAsync();
+        [HttpGet("users")]
+        public async Task<ActionResult<List<Users>>> GetUsers()
+        {
+            return Ok(await _appDbContext.Users.Include(a=> a.Accounts).ToListAsync());
         }
 
         [HttpGet("users/{id}")]
@@ -49,41 +49,47 @@ namespace bank.Controllers
         {
             var user = await _appDbContext.Users.FindAsync(id);
             if(user == null)
-            {
                 return NotFound();
-            }
-            return user;
+
+            return Ok(user);
         }
+
         [HttpPost("users")]
-        public async Task<ActionResult<Users>> PostUser(Users user)
+        public async Task<ActionResult<Users>> PostUser(UserDTO u)
         {
-            _appDbContext.Add(user);
+            Users user = new Users();
+            user.Username = u.Username; 
+            user.Password = u.Password;
+            user.Email = u.Email;
+            user.First_name = u.First_name;
+            user.Last_name = u.Last_name;
+            user.Type = u.Type;
+            user.CNP = u.CNP;
+
+            _appDbContext.Users.Add(user);
             await _appDbContext.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user);
         }
 
         [HttpPut("users/{id}")]
-        public async Task<ActionResult<Users>> PutUser(int id, Users user)
+        public async Task<ActionResult<Users>> PutUser(int id, UserDTO u)
         {
-            if(id != user.Id)
-            {
-                return BadRequest();
-            }
-            _appDbContext.Entry(user).State = EntityState.Modified;
-            try
-            {
-                await _appDbContext.SaveChangesAsync();
-            }
-            catch(DbUpdateConcurrencyException)
-            {
-                if(!userExists(id)) { return NotFound(); }
-                else { throw; }
-            }
+            var user = await _appDbContext.Users.FindAsync(id);
+            if(user == null)
+                return NotFound();
+
+            user.Username = u.Username;
+            user.Password = u.Password;
+            user.Email = u.Email;
+            user.First_name =u.First_name;
+            user.Last_name=u.Last_name;
+            user.Type = u.Type;
+            user.CNP = u.CNP;
+
+            await _appDbContext.SaveChangesAsync();
+
             return NoContent();
-        }
-        private bool userExists(long id)
-        {
-            return (_appDbContext.Users?.Any(user => user.Id == id)).GetValueOrDefault();
         }
 
         [HttpDelete("users/{id}")]
@@ -91,25 +97,25 @@ namespace bank.Controllers
         {
             var user = await _appDbContext.Users.FindAsync(id);
             if(user == null)
-            {
                 return NotFound();
-            }
-            _appDbContext.Remove(user);
+
+            _appDbContext.Users.Remove(user);
             await _appDbContext.SaveChangesAsync();
+
             return NoContent();
 
         }
 
+        //Accounts endpoints
 
         [HttpGet("accounts")]
-        public async Task<ActionResult<IEnumerable<Accounts>>> GetAccounts()
+        public async Task<ActionResult<List<Accounts>>> GetAccounts()
         {
-            if (_appDbContext.Accounts == null)
-            {
-                return NotFound();
-            }
-
-            return await _appDbContext.Accounts.ToListAsync();
+            return Ok(await _appDbContext.Accounts
+                .Include(t => t.SenderTransactions)
+                .Include(t  => t.ReceiverTransactions)
+                .Include(c => c.Cards)
+                .ToListAsync());
         }
 
         [HttpGet("accounts/{id}")]
@@ -117,135 +123,136 @@ namespace bank.Controllers
         {
             var account = await _appDbContext.Accounts.FindAsync(id);
             if (account == null)
-            {
                 return NotFound();
-            }
-            return account;
+
+            return Ok(account);
         }
         [HttpPost("accounts")]
-        public async Task<ActionResult<Accounts>> PostAccount(Accounts account)
+        public async Task<ActionResult<Accounts>> PostAccount(AccountDTO acc)
         {
-            _appDbContext.Add(account);
+            Accounts account = new Accounts();
+            account.IBAN = acc.IBAN;
+            account.UsersId = acc.UsersId;
+            account.currency = acc.currency;
+            account.balance = acc.balance;
+
+            _appDbContext.Accounts.Add(account);
             await _appDbContext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetAccount), new { id = account.id }, account);
         }
 
         [HttpPut("accounts/{id}")]
-        public async Task<ActionResult<Accounts>> PutAccount(int id, Accounts account)
+        public async Task<ActionResult<Accounts>> PutAccount(int id, AccountDTO acc)
         {
-            if (id != account.id)
-            {
-                return BadRequest();
-            }
-            _appDbContext.Entry(account).State = EntityState.Modified;
-            try
-            {
-                await _appDbContext.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!accountExists(id)) { return NotFound(); }
-                else { throw; }
-            }
+            var account = await _appDbContext.Accounts.FindAsync(id);
+            if (account == null)
+                return NotFound();
+
+            account.IBAN = acc.IBAN;
+            account.balance = acc.balance;
+            account.UsersId = acc.UsersId;
+            account.currency = acc.currency;
+
+            await _appDbContext.SaveChangesAsync();
+
             return NoContent();
-        }
-        private bool accountExists(long id)
-        {
-            return (_appDbContext.Accounts?.Any(account => account.id == id)).GetValueOrDefault();
         }
 
         [HttpDelete("accounts/{id}")]
         public async Task<ActionResult<Accounts>> DeleteAccount(int id)
         {
             var account = await _appDbContext.Accounts.FindAsync(id);
+            
             if (account == null)
-            {
                 return NotFound();
-            }
-            _appDbContext.Remove(account);
-            await _appDbContext.SaveChangesAsync();
-            return NoContent();
 
+            _appDbContext.Accounts.Remove(account);
+            await _appDbContext.SaveChangesAsync();
+            
+            return NoContent();
         }
 
-        [HttpGet("transactions")]
-        public async Task<ActionResult<IEnumerable<Transactions>>> GetTransactions()
-        {
-            if (_appDbContext.Transactions == null)
-            {
-                return NotFound();
-            }
+        // Transactions Endpoints
 
-            return await _appDbContext.Transactions.ToListAsync();
+        [HttpGet("transactions")]
+        public async Task<ActionResult<List<Transactions>>> GetTransactions()
+        {
+            return Ok(await _appDbContext.Transactions.ToListAsync());
         }
 
         [HttpGet("transactions/{id}")]
         public async Task<ActionResult<Transactions>> GetTransaction(int id)
         {
-            var transaction = await _appDbContext.Transactions.FindAsync(id);
-            if (transaction == null)
-            {
+            var trasaction = await _appDbContext.Transactions.FindAsync(id);
+            if (trasaction == null)
                 return NotFound();
-            }
-            return transaction;
+
+            return Ok(trasaction);
         }
 
         [HttpPost("transactions")]
-        public async Task<ActionResult<Transactions>> PostTransaction(Transactions transaction)
+        public async Task<ActionResult<Transactions>> PostTransaction(TransactionDTO t)
         {
-            _appDbContext.Add(transaction);
+            Transactions transaction = new Transactions();
+            transaction.identifier = t.identifier;
+            transaction.amount = t.amount;
+            transaction.currency = t.currency;
+            transaction.time = t.time;
+            transaction.type = t.type;
+            transaction.FROMid = t.FROMid;
+            transaction.TOid = t.TOid;
+            transaction.phone = t.phone;
+
+
+            _appDbContext.Transactions.Add(transaction);
             await _appDbContext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetTransaction), new { id = transaction.id }, transaction);
         }
 
         [HttpPut("transactions/{id}")]
-        public async Task<ActionResult<Transactions>> PutTransacton(int id, Transactions transaction)
+        public async Task<ActionResult<Transactions>> PutTransacton(int id, TransactionDTO t)
         {
-            if (id != transaction.id)
-            {
-                return BadRequest();
-            }
-            _appDbContext.Entry(transaction).State = EntityState.Modified;
-            try
-            {
-                await _appDbContext.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!transactionExists(id)) { return NotFound(); }
-                else { throw; }
-            }
+            var transaction = await _appDbContext.Transactions.FindAsync(id);
+            if (transaction == null)
+                return NotFound();
+
+            transaction.identifier = t.identifier;
+            transaction.amount = t.amount;
+            transaction.currency = t.currency;
+            transaction.time = t.time;
+            transaction.type = t.type;
+            transaction.FROMid = t.FROMid;
+            transaction.TOid = t.TOid;
+            transaction.phone = t.phone;
+
+            await _appDbContext.SaveChangesAsync();
+
             return NoContent();
         }
-        private bool transactionExists(long id)
-        {
-            return (_appDbContext.Transactions?.Any(transaction => transaction.id == id)).GetValueOrDefault();
-        }
+
 
         [HttpDelete("transactions/{id}")]
         public async Task<ActionResult<Transactions>> DeleteTransaction(int id)
         {
             var transaction = await _appDbContext.Transactions.FindAsync(id);
+            
             if (transaction == null)
-            {
                 return NotFound();
-            }
-            _appDbContext.Remove(transaction);
+
+            _appDbContext.Transactions.Remove(transaction);
             await _appDbContext.SaveChangesAsync();
+            
             return NoContent();
 
         }
 
-        //
-        [HttpGet("cards")]
-        public async Task<ActionResult<IEnumerable<Cards>>> GetCards()
-        {
-            if (_appDbContext.Cards == null)
-            {
-                return NotFound();
-            }
+        //Cards Endpoints
 
-            return await _appDbContext.Cards.ToListAsync();
+
+        [HttpGet("cards")]
+        public async Task<ActionResult<List<Cards>>> GetCards()
+        {
+            return Ok(await _appDbContext.Cards.ToListAsync());
         }
 
         [HttpGet("cards/{id}")]
@@ -253,53 +260,55 @@ namespace bank.Controllers
         {
             var card = await _appDbContext.Cards.FindAsync(id);
             if (card == null)
-            {
                 return NotFound();
-            }
-            return card;
+
+            return Ok(card);
         }
         [HttpPost("cards")]
-        public async Task<ActionResult<Cards>> PostCard(Cards card)
+        public async Task<ActionResult<Cards>> PostCard(CardDTO c)
         {
-            _appDbContext.Add(card);
+            Cards card = new Cards();
+            card.number = c.number;
+            card.holderName = c.holderName;
+            card.expirationDate = c.expirationDate;
+            card.CVV = c.CVV;
+            card.AccountsId = c.AccountsId;
+
+
+            _appDbContext.Cards.Add(card);
             await _appDbContext.SaveChangesAsync();
             return CreatedAtAction(nameof(GetCard), new { id = card.id }, card);
         }
 
         [HttpPut("cards/{id}")]
-        public async Task<ActionResult<Cards>> PutCard(int id, Cards card)
+        public async Task<ActionResult<Cards>> PutCard(int id, CardDTO c)
         {
-            if (id != card.id)
-            {
-                return BadRequest();
-            }
-            _appDbContext.Entry(card).State = EntityState.Modified;
-            try
-            {
-                await _appDbContext.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!cardExists(id)) { return NotFound(); }
-                else { throw; }
-            }
+            var card = await _appDbContext.Cards.FindAsync(id);
+            if (card == null)
+                return NotFound();
+
+            card.number = c.number;
+            card.holderName = c.holderName;
+            card.expirationDate = c.expirationDate;
+            card.CVV = c.CVV;
+            card.AccountsId = c.AccountsId;
+
+            await _appDbContext.SaveChangesAsync();
+
             return NoContent();
-        }
-        private bool cardExists(long id)
-        {
-            return (_appDbContext.Cards?.Any(card => card.id == id)).GetValueOrDefault();
         }
 
         [HttpDelete("cards/{id}")]
         public async Task<ActionResult<Cards>> DeleteCard(int id)
         {
             var card = await _appDbContext.Cards.FindAsync(id);
+            
             if (card == null)
-            {
                 return NotFound();
-            }
-            _appDbContext.Remove(card);
+            
+            _appDbContext.Cards.Remove(card);
             await _appDbContext.SaveChangesAsync();
+            
             return NoContent();
 
         }

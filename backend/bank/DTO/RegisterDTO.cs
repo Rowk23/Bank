@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace bank.Models
+namespace bank.DTO
 {
     public class RegisterDTO
     {

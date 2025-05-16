@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/RegisterDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/RegisterDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/RegisterDTO"
               }
             }
           }
@@ -146,17 +146,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/UserDT"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/UserDT"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Users"
+                "$ref": "#/components/schemas/UserDT"
               }
             }
           }
@@ -365,17 +365,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Accounts"
+                "$ref": "#/components/schemas/AccountDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Accounts"
+                "$ref": "#/components/schemas/AccountDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Accounts"
+                "$ref": "#/components/schemas/AccountDTO"
               }
             }
           }
@@ -980,13 +980,9 @@
   },
   "components": {
     "schemas": {
-      "Accounts": {
+      "AccountDTO": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "iban": {
             "type": "string",
             "nullable": true
@@ -1002,10 +998,32 @@
           "balance": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Accounts": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "iban": {
+            "type": "string",
+            "nullable": true
           },
           "usersId": {
             "type": "integer",
             "format": "int32"
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "balance": {
+            "type": "number",
+            "format": "double"
           },
           "cards": {
             "type": "array",
@@ -1068,6 +1086,36 @@
         },
         "additionalProperties": false
       },
+      "RegisterDTO": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "first_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "last_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnp": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Transactions": {
         "type": "object",
         "properties": {
@@ -1113,6 +1161,44 @@
           },
           "tReceiver": {
             "$ref": "#/components/schemas/Accounts"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserDT": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "first_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "last_name": {
+            "type": "string",
+            "nullable": true
+          },
+          "cnp": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

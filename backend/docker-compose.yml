@@ -21,7 +21,7 @@ services:
     container_name: bank-back
     build:
         context: .
-        dockerfile: backend/bank/Dockerfile
+        dockerfile: bank/Dockerfile
     ports:
         - 8080:8081
     depends_on:
@@ -39,7 +39,7 @@ services:
       context: ../frontend-bank
       dockerfile: ../frontend-bank/Dockerfile
     ports:
-        - 5176:5176
+        - 5173:80
     networks:
         - front-back
 volumes:

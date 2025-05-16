@@ -1,4 +1,5 @@
 ﻿using bank.Data;
+using bank.DTO;
 using bank.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,7 @@ namespace bank.Services
 {
     public class AuthService(AppDbContext context, IConfiguration configuration): IAuthService
     {   
-        public async Task<string?> LoginAsync(UserDto request)
+        public async Task<string?> LoginAsync(LoginDTO request)
         {
             var user = await context.Users.FirstOrDefaultAsync(u => u.Username == request.Username);
             if (user is null)

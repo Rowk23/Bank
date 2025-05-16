@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "account",
-        "Type": "bank.Models.Accounts",
+        "Name": "acc",
+        "Type": "bank.Models.AccountDTO",
         "IsRequired": true
       }
     ],
@@ -293,7 +293,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "bank.Models.Users",
+        "Type": "bank.Models.RegisterDTO",
         "IsRequired": true
       }
     ],
@@ -467,8 +467,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "bank.Models.Users",
+        "Name": "u",
+        "Type": "bank.Models.UserDT",
         "IsRequired": true
       }
     ],

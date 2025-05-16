@@ -45,7 +45,7 @@ namespace bank.Data
             modelBuilder.Entity<Accounts>()
                         .HasOne(a => a.Users)
                         .WithMany(u => u.Accounts)
-                        .HasForeignKey(a => a.ownerId);
+                        .HasForeignKey(a => a.UsersId);
 
         }
     }

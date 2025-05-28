@@ -15,6 +15,8 @@ import TransactionDetailsPage from './pages/profile/TransactionDetailsPage';
 import AccountsPage from './pages/profile/AccountsPage';
 import AccountDetailsPage from './pages/profile/AccountDetailsPage';
 import AccountTransactionsPage from './pages/profile/AccountTransactionsPage';
+import ExchangeRatesPage from './pages/profile/ExchangeRatesPage';
+import OpenAccountPage from './pages/profile/OpenAccountPage';
 
 // Admin imports
 import AdminRouteGuard from './components/admin/AdminRouteGuard';
@@ -22,6 +24,13 @@ import AdminDashboardPage from './pages/admin/AdminDashboardPage';
 import AdminProfileEditPage from './pages/admin/AdminProfileEditPage';
 import AdminUsersPage from './pages/admin/AdminUsersPage';
 import './App.css';
+
+// Payments Imports
+import PaymentsPage from './pages/payments/PaymentsPage';
+import NewPaymentPage from './pages/payments/NewPaymentPage';
+import PaymentSuccessPage from './pages/payments/PaymentSuccessPage';
+import PaymentErrorPage from './pages/payments/PaymentErrorPage';
+
 
 /**
  * Protected Route component
@@ -79,6 +88,7 @@ function App() {
           <Route path="/profile/accounts/:id" element={<ProtectedRoute><AccountDetailsPage /></ProtectedRoute>} />
           <Route path="/profile/accounts/:id/transactions" element={<ProtectedRoute><AccountTransactionsPage /></ProtectedRoute>} />
           <Route path="/profile/accounts/:id/transactions/:transactionId" element={<ProtectedRoute><TransactionDetailsPage /></ProtectedRoute>} />
+          <Route path="/accounts/new" element={<OpenAccountPage />} />
           
           {/* Admin routes - protected by AdminRouteGuard */}
           <Route element={<AdminRouteGuard />}>
@@ -86,12 +96,22 @@ function App() {
             <Route path="/admin-dashboard/edit-admin" element={<AdminProfileEditPage />} />
             <Route path="/admin-dashboard/users" element={<AdminUsersPage />} />
           </Route>
+
+          {/* Payment routes */}
+          <Route path="/payments" element={<ProtectedRoute><PaymentsPage /></ProtectedRoute>} />
+          <Route path="/payments/new" element={<ProtectedRoute><NewPaymentPage /></ProtectedRoute>} />
+          <Route path="/payments/success" element={<ProtectedRoute><PaymentSuccessPage /></ProtectedRoute>} />
+          <Route path="/payments/error" element={<ProtectedRoute><PaymentErrorPage /></ProtectedRoute>} />
+
           
           {/* Redirect root to login */}
           <Route path="/" element={<Navigate to="/login" />} />
           
           {/* Catch-all route for 404 */}
           <Route path="*" element={<div>Page Not Found</div>} />
+
+          {/* Exchange rates page */}
+          <Route path="/exchange-rates" element={<ExchangeRatesPage />} />
           </Routes>
         </Layout>
       </AuthProvider>

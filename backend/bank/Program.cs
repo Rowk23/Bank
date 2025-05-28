@@ -1,9 +1,11 @@
+
 using bank.Data;
 using bank.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 
 // Add services to the container.
 
@@ -36,7 +38,9 @@ var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User ID=s
 //builder.Services.AddDbContext<AppDbContext > (options =>
 //options.UseSqlServer(builder.Configuration.GetConnectionString("BankConnectionString")));
 
-builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(connectionString));
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(configuration.GetConnectionString("BankConnectionString")));
+
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 
@@ -65,6 +69,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
 
 app.UseHttpsRedirection();
 

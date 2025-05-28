@@ -1,0 +1,117 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}
+
+.exchange-rates-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 40px);
+}
+
+.exchange-rates-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.exchange-rates-header {
+  background: #4f46e5;
+  padding: 20px;
+}
+
+.exchange-rates-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.exchange-rates-table-container {
+  overflow-x: auto;
+  padding: 0 10px;
+}
+
+.exchange-rates-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.exchange-rates-table thead {
+  background-color: #f9fafb;
+}
+
+.exchange-rates-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.exchange-rates-table td {
+  padding: 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.exchange-rates-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.currency-cell {
+  font-weight: 600;
+  color: #111827;
+}
+
+.bnr-cell {
+  color: #4b5563;
+}
+
+.buy-cell {
+  color: #059669;
+  font-weight: 500;
+}
+
+.sell-cell {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.exchange-rates-footer {
+  background-color: #f9fafb;
+  padding: 12px;
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    padding: 10px;
+  }
+
+  .exchange-rates-title {
+    font-size: 20px;
+  }
+
+  .exchange-rates-table th,
+  .exchange-rates-table td {
+    padding: 12px;
+  }
+}

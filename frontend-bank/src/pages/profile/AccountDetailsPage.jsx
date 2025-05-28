@@ -215,7 +215,6 @@ const AccountDetailsPage = () => {
               </div>
               
               <div className="account-actions-container">
-                <button className="btn btn-primary">Transfer Money</button>
                 <button className="btn btn-secondary">Download Statement</button>
                 <button className="btn btn-outline">Manage Account</button>
               </div>

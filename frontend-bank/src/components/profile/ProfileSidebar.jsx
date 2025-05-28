@@ -62,6 +62,14 @@ const ProfileSidebar = () => {
               Back to Dashboard
             </NavLink>
           </li>
+          <li>
+              <NavLink
+                to="/exchange-rates"
+                className={({ isActive }) => isActive ? 'active' : ''}
+                >
+                Exchange Rates
+                </NavLink>
+          </li>
         </ul>
       </nav>
     </div>

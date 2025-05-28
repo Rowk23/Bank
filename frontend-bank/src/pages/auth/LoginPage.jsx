@@ -21,7 +21,7 @@ const LoginPage = () => {
   const handleLogin = async (credentials) => {
     setError('');
     setLoading(true);
-    
+
     try {
       await login(credentials);
       navigate('/dashboard'); // Redirect to dashboard after successful login
@@ -39,11 +39,11 @@ const LoginPage = () => {
           <h1>Welcome Back</h1>
           <p>Log in to access your banking services</p>
         </div>
-        
+
         {error && <div className="auth-error">{error}</div>}
-        
+
         <LoginForm onSubmit={handleLogin} isLoading={loading} />
-        
+
         <div className="auth-footer">
           <p>
             Don't have an account?{' '}

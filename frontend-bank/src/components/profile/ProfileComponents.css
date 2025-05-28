@@ -56,7 +56,7 @@
   margin-bottom: 30px;
 }
 
-.card-container {
+.card-container.card{
   width: 100%;
   max-width: 380px;
   height: 220px;
@@ -68,6 +68,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   margin-bottom: 15px;
+  background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
 }
 
 .card-container:hover {

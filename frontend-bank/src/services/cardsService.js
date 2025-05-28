@@ -14,32 +14,33 @@ const cardsService = {
    */
   getUserCards: async () => {
     try {
-      // Get the current user from localStorage
       const currentUser = authService.getCurrentUser();
-      
       if (!currentUser || !currentUser.id) {
         throw { message: 'User not authenticated' };
       }
-      
-      // First get the user's accounts
+
       const userAccounts = await accountsService.getUserAccounts();
-      
-      // Get account IDs for filtering cards
-      const userAccountIds = userAccounts.map(account => account.id);
-      
-      // Get all cards
+      console.log('User Accounts:', userAccounts);
+
+      const userAccountIds = userAccounts.map(account => String(account.id));
+      console.log('User Account IDs:', userAccountIds);
+
       const cardsResponse = await axiosInstance.get('/cards');
-      
-      // Filter cards that belong to the user's accounts
-      const userCards = cardsResponse.data.filter(card => 
-        userAccountIds.includes(card.AccountsId)
+      console.log('All Cards:', cardsResponse.data);
+
+      const userCards = cardsResponse.data.filter(card =>
+        userAccountIds.includes(String(card.accountsId))
       );
-      
+
+      console.log('User Cards:', userCards);
+
       return userCards;
     } catch (error) {
       throw error.response?.data || { message: 'Failed to fetch user cards' };
     }
   },
+
+
   
   /**
    * Get details of a specific card
@@ -47,14 +48,13 @@ const cardsService = {
    * @returns {Promise} - Response with card details
    */
   getCardDetails: async (cardId) => {
-    try {
-      // Use the existing endpoint to get card details
-      const response = await axiosInstance.get(`/cards/${cardId}`);
-      return response.data;
-    } catch (error) {
-      throw error.response?.data || { message: 'Failed to fetch card details' };
-    }
-  },
+      try {
+          const response = await axiosInstance.get(`/cards/${cardId}`);
+          return response.data;
+        } catch (error) {
+          throw new Error('Failed to fetch card details');
+        }
+    },
   
   /**
    * Get transactions for a specific card
@@ -62,6 +62,7 @@ const cardsService = {
    * @param {Object} filters - Optional filters for transactions
    * @returns {Promise} - Response with card transactions
    */
+   /*
   getCardTransactions: async (cardId, filters) => {
     try {
       // First get the card details to find its associated account
@@ -112,6 +113,7 @@ const cardsService = {
       throw error.response?.data || { message: 'Failed to fetch card transactions' };
     }
   },
+  */
   
   /**
    * Create a new card for a specific account

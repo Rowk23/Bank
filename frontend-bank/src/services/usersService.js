@@ -18,7 +18,7 @@ const usersService = {
       
       if (currentUser && currentUser.id) {
         // If we have the user ID, fetch the complete user data
-        const response = await axiosInstance.get(`/users/${currentUser.id}`);
+        const response = await axiosInstance.get(`/users/profile`);
         
         // Merge the response data with the current user data to ensure we have all information
         const mergedUserData = {
@@ -89,5 +89,7 @@ const usersService = {
     }
   }
 };
+
+
 
 export default usersService;

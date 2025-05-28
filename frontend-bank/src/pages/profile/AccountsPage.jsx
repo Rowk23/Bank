@@ -3,6 +3,9 @@ import ProfileSidebar from '../../components/profile/ProfileSidebar';
 import AccountItem from '../../components/profile/AccountItem';
 import accountsService from '../../services/accountsService';
 import './ProfilePages.css';
+import { useNavigate } from 'react-router-dom';
+import OpenAccountPage from './OpenAccountPage';
+
 
 /**
  * Accounts Page Component
@@ -12,6 +15,7 @@ const AccountsPage = () => {
   const [accounts, setAccounts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   // Fetch all user accounts when component mounts
   useEffect(() => {
@@ -133,7 +137,9 @@ const AccountsPage = () => {
               )}
               
               <div className="accounts-actions">
-                <button className="btn btn-primary">Open New Account</button>
+                <button className="btn btn-primary" onClick={() => navigate('/accounts/new')}>
+                  Open New Account
+                </button>
                 <button className="btn btn-secondary">Download Statement</button>
               </div>
             </div>

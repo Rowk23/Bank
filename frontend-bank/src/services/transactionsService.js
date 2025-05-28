@@ -145,8 +145,7 @@ const transactionsService = {
    */
   createTransaction: async (transactionData) => {
     try {
-      // Ensure required fields are present
-      if (!transactionData.FROMid || !transactionData.TOid || !transactionData.amount) {
+      if (!transactionData.FROMid || !transactionData.amount) {
         throw new Error('Missing required transaction fields');
       }
       

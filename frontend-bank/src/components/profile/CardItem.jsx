@@ -25,50 +25,33 @@ const CardItem = ({ card }) => {
     return `${month}/${year}`;
   };
 
-  // Determine card type based on first digit
-  const getCardType = (number) => {
-    if (!number) return 'Unknown';
-    const firstDigit = number.charAt(0);
-    
-    switch (firstDigit) {
-      case '4':
-        return 'Visa';
-      case '5':
-        return 'MasterCard';
-      case '3':
-        return 'American Express';
-      case '6':
-        return 'Discover';
-      default:
-        return 'Card';
-    }
-  };
-
   return (
     <div className="card-item">
-      <div className={`card-container ${getCardType(card.number).toLowerCase()}`}>
+      {/* Removed card type class */}
+      <div className="card-container">
         <div className="card-header">
-          <div className="card-type">{getCardType(card.number)}</div>
+          {/* Removed card type display */}
           <div className="card-chip"></div>
         </div>
-        
+
         <div className="card-number">
+            <div className="label">Card number</div>
           {formatCardNumber(card.number)}
         </div>
-        
+
         <div className="card-footer">
           <div className="card-holder">
             <div className="label">Card Holder</div>
             <div className="value">{card.holderName || 'CARD HOLDER'}</div>
           </div>
-          
+
           <div className="card-expiry">
             <div className="label">Expires</div>
             <div className="value">{formatExpiryDate(card.expirationDate)}</div>
           </div>
         </div>
       </div>
-      
+
       <div className="card-actions">
         <Link to={`/profile/cards/${card.id}`} className="btn btn-primary">
           View Details

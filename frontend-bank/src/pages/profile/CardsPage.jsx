@@ -38,12 +38,12 @@ const CardsPage = () => {
         <div className="profile-sidebar-container">
           <ProfileSidebar />
         </div>
-        
+
         <div className="profile-content">
           <div className="profile-header">
             <h1>My Cards</h1>
           </div>
-          
+
           {loading ? (
             <div className="profile-loading">
               <div className="loading-spinner"></div>
@@ -52,7 +52,7 @@ const CardsPage = () => {
           ) : error ? (
             <div className="profile-error">
               <p>{error}</p>
-              <button 
+              <button
                 className="btn btn-primary"
                 onClick={() => window.location.reload()}
               >

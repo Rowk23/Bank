@@ -22,14 +22,13 @@ const CardDetailsPage = () => {
     const fetchCardData = async () => {
       try {
         setLoading(true);
-        
+        console.log('Fetching card details for id:', cardId);
         // Fetch card details
         const cardData = await cardsService.getCardDetails(cardId);
+        console.log('Card data received:', cardData);
         setCard(cardData);
         
-        // Fetch card transactions
-        const transactionsData = await cardsService.getCardTransactions(cardId);
-        setTransactions(transactionsData || []);
+
         
         setError(null);
       } catch (err) {
@@ -65,7 +64,7 @@ const CardDetailsPage = () => {
   const getCardType = (number) => {
     if (!number) return 'Unknown';
     const firstDigit = number.charAt(0);
-    
+
     switch (firstDigit) {
       case '4':
         return 'Visa';
@@ -170,7 +169,7 @@ const CardDetailsPage = () => {
                       
                       <div className="info-item">
                         <span className="info-label">Linked Account</span>
-                        <span className="info-value">{card.AccountsId || 'N/A'}</span>
+                        <span className="info-value">{card.accountsId || 'N/A'}</span>
                       </div>
                     </div>
                   </div>
@@ -181,7 +180,7 @@ const CardDetailsPage = () => {
                   </div>
                 </div>
               </div>
-              
+              {/*
               <div className="card-transactions-section">
                 <div className="section-header">
                   <h2>Recent Transactions</h2>
@@ -197,14 +196,15 @@ const CardDetailsPage = () => {
                 ) : (
                   <div className="transactions-list">
                     {transactions.slice(0, 5).map(transaction => (
-                      <TransactionItem 
-                        key={transaction.id} 
-                        transaction={transaction} 
+                      <TransactionItem
+                        key={transaction.id}
+                        transaction={transaction}
                       />
                     ))}
                   </div>
                 )}
               </div>
+              */}
             </>
           ) : (
             <div className="profile-error">

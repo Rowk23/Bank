@@ -106,6 +106,24 @@ namespace bank.Controllers
 
         }
 
+        [HttpGet("users/profile")]
+        public async Task<ActionResult<Users>> GetUserProfile()
+        {
+            // Extract the user id from JWT claims
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "id");
+            if (userIdClaim == null)
+                return Unauthorized();
+
+            if (!int.TryParse(userIdClaim.Value, out var userId))
+                return Unauthorized();
+
+            var user = await _appDbContext.Users.FindAsync(userId);
+            if (user == null)
+                return NotFound();
+
+            return Ok(user);
+        }
+
         //Accounts endpoints
 
         [HttpGet("accounts")]
@@ -183,11 +201,11 @@ namespace bank.Controllers
         [HttpGet("transactions/{id}")]
         public async Task<ActionResult<Transactions>> GetTransaction(int id)
         {
-            var trasaction = await _appDbContext.Transactions.FindAsync(id);
-            if (trasaction == null)
+            var transaction = await _appDbContext.Transactions.FindAsync(id);
+            if (transaction == null)
                 return NotFound();
 
-            return Ok(trasaction);
+            return Ok(transaction);
         }
 
         [HttpPost("transactions")]

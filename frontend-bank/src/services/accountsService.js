@@ -22,11 +22,12 @@ const accountsService = {
       
       // Get all accounts
       const accountsResponse = await axiosInstance.get('/accounts');
+      accountsResponse.data.forEach(account => console.log('Account fields:', Object.keys(account)));
       
       // Filter accounts that belong to the current user
-      const userAccounts = accountsResponse.data.filter(account => 
-        account.ownerId === parseInt(currentUser.id) || 
-        account.UsersId === parseInt(currentUser.id)
+      const userAccounts = accountsResponse.data.filter(account =>
+        Number(account.usersId) === Number(currentUser.id)
+
       );
       
       return userAccounts;

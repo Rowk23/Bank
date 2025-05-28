@@ -1,138 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\",
+  "WorkspaceRootPath": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Models\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\bank.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\bank.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\bank.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\bank.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\bank.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\controllers\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\models\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\bank.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\bank.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\facultate\\an 3\\semestrul 2\\ii proj\\bank\\backend\\bank\\bank.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|c:\\users\\belme\\documents\\github\\bank\\backend\\bank\\bank.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{467D7EBB-AC19-4B03-BF1A-288E2F9397FC}|bank\\bank.csproj|solutionrelative:bank\\bank.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250506084746_lsfsf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250506084645_lsfka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250506084352_ssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250506084310_ssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409084845_sssgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409085139_fsjhsff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409092250_gasdhgds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409092604_gasdhgdsjj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409092107_dsadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409085431_gsgskkgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Models\\UserDT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\AccountDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Models\\AccountDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\AccountDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bank\\Models\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\RegisterDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,27 +125,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Accounts.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Accounts.cs",
-              "RelativeDocumentMoniker": "bank\\Models\\Accounts.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Accounts.cs",
-              "RelativeToolTip": "bank\\Models\\Accounts.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:15:55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Program.cs",
               "RelativeDocumentMoniker": "bank\\Program.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Program.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Program.cs",
               "RelativeToolTip": "bank\\Program.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -170,22 +141,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDto.cs",
-              "RelativeDocumentMoniker": "bank\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDto.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDto.cs",
-              "RelativeToolTip": "bank\\Models\\UserDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDto.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T17:10:53.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BankController.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Controllers\\BankController.cs",
               "RelativeDocumentMoniker": "bank\\Controllers\\BankController.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Controllers\\BankController.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Controllers\\BankController.cs",
               "RelativeToolTip": "bank\\Controllers\\BankController.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAAAHQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,11 +164,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
@@ -206,11 +177,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Cards.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Cards.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Cards.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Cards.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Cards.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Cards.cs",
               "RelativeToolTip": "bank\\Models\\Cards.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,59 +189,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "docker-compose.dcproj",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\docker-compose.dcproj",
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:12:42.207Z"
+              "WhenOpened": "2025-05-06T13:12:42.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\.dockerignore",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\.dockerignore",
               "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\.dockerignore",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\.dockerignore",
               "RelativeToolTip": ".dockerignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-06T13:40:57.944Z"
+              "WhenOpened": "2025-05-06T13:40:57.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Dockerfile",
               "RelativeDocumentMoniker": "bank\\Dockerfile",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Dockerfile",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Dockerfile",
               "RelativeToolTip": "bank\\Dockerfile",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-14T09:07:22.742Z"
+              "WhenOpened": "2025-05-14T09:07:22.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Users.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Users.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Users.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Users.cs",
               "RelativeToolTip": "bank\\Models\\Users.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T08:33:04.558Z"
+              "WhenOpened": "2025-04-09T08:33:04.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "bank",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\bank.csproj",
+              "RelativeDocumentMoniker": "bank\\bank.csproj",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\bank.csproj",
+              "RelativeToolTip": "bank\\bank.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-06T14:23:21.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Accounts.cs",
+              "RelativeDocumentMoniker": "bank\\Models\\Accounts.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Accounts.cs",
+              "RelativeToolTip": "bank\\Models\\Accounts.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T06:15:55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Transactions.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Transactions.cs",
               "RelativeDocumentMoniker": "bank\\Models\\Transactions.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\Transactions.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Models\\Transactions.cs",
               "RelativeToolTip": "bank\\Models\\Transactions.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwBMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -278,11 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "bank\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Services\\AuthService.cs",
               "RelativeToolTip": "bank\\Services\\AuthService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -293,9 +292,9 @@
               "DocumentIndex": 31,
               "Title": "AccountDTO.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\AccountDTO.cs",
-              "RelativeDocumentMoniker": "bank\\Models\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\AccountDTO.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\AccountDTO.cs",
-              "RelativeToolTip": "bank\\Models\\AccountDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\AccountDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T17:17:55.387Z"
@@ -305,20 +304,20 @@
               "DocumentIndex": 30,
               "Title": "UserDT.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDT.cs",
-              "RelativeDocumentMoniker": "bank\\Models\\UserDT.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDT.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDT.cs",
-              "RelativeToolTip": "bank\\Models\\UserDT.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\UserDT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T17:21:29.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "bank\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\Data\\AppDbContext.cs",
               "RelativeToolTip": "bank\\Data\\AppDbContext.cs",
               "ViewState": "AgIAABwAAAAAAAAAAIA/wCwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -326,11 +325,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "bank.http",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.http",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\bank.http",
               "RelativeDocumentMoniker": "bank\\bank.http",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.http",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\bank.http",
               "RelativeToolTip": "bank\\bank.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -338,23 +337,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "bank",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
-              "RelativeDocumentMoniker": "bank\\bank.csproj",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
-              "RelativeToolTip": "bank\\bank.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-06T14:23:21.686Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 32,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "bank\\Models\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\RegisterDTO.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\RegisterDTO.cs",
-              "RelativeToolTip": "bank\\Models\\RegisterDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Models\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T17:17:04.305Z"
@@ -363,9 +351,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\appsettings.json",
               "RelativeDocumentMoniker": "bank\\appsettings.json",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\appsettings.json",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\appsettings.json",
               "RelativeToolTip": "bank\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -375,22 +363,23 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "bank.csproj",
-              "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
+              "DocumentMoniker": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\bank.csproj",
               "RelativeDocumentMoniker": "bank\\bank.csproj",
-              "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\bank.csproj",
+              "ToolTip": "C:\\Users\\belme\\Documents\\GitHub\\Bank\\backend\\bank\\bank.csproj",
               "RelativeToolTip": "bank\\bank.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-09T06:15:02.841Z"
+              "WhenOpened": "2025-04-09T06:15:02.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "20250506084645_lsfka.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250506084645_lsfka.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250506084645_lsfka.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084645_lsfka.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:46:45.86Z"
             },
@@ -399,9 +388,9 @@
               "DocumentIndex": 20,
               "Title": "20250506084310_ssss.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250506084310_ssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250506084310_ssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084310_ssss.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:43:10.992Z"
             },
@@ -410,9 +399,9 @@
               "DocumentIndex": 19,
               "Title": "20250506084352_ssssss.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250506084352_ssssss.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250506084352_ssssss.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084352_ssssss.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:43:52.166Z"
             },
@@ -421,9 +410,9 @@
               "DocumentIndex": 17,
               "Title": "20250506084746_lsfsf.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250506084746_lsfsf.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250506084746_lsfsf.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250506084746_lsfsf.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:47:46.717Z"
             },
@@ -432,9 +421,9 @@
               "DocumentIndex": 21,
               "Title": "20250409084845_sssgs.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409084845_sssgs.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409084845_sssgs.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409084845_sssgs.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T08:48:45.449Z"
             },
@@ -443,9 +432,9 @@
               "DocumentIndex": 22,
               "Title": "20250409085139_fsjhsff.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409085139_fsjhsff.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409085139_fsjhsff.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085139_fsjhsff.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T08:51:39.91Z"
             },
@@ -454,9 +443,9 @@
               "DocumentIndex": 23,
               "Title": "20250409092250_gasdhgds.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409092250_gasdhgds.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409092250_gasdhgds.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092250_gasdhgds.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T09:22:50.475Z"
             },
@@ -465,9 +454,9 @@
               "DocumentIndex": 24,
               "Title": "20250409092902_gasdhgdsjjfsagsafasfsa.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092902_gasdhgdsjjfsagsafasfsa.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T09:29:02.542Z"
             },
@@ -476,9 +465,9 @@
               "DocumentIndex": 25,
               "Title": "20250409092604_gasdhgdsjj.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092604_gasdhgdsjj.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T09:26:04.477Z"
             },
@@ -487,9 +476,9 @@
               "DocumentIndex": 26,
               "Title": "20250409092705_gasdhgdsjjfsagsa.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092705_gasdhgdsjjfsagsa.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T09:27:05.995Z"
             },
@@ -498,9 +487,9 @@
               "DocumentIndex": 27,
               "Title": "20250409092107_dsadas.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409092107_dsadas.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409092107_dsadas.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409092107_dsadas.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T09:21:07.573Z"
             },
@@ -509,9 +498,9 @@
               "DocumentIndex": 28,
               "Title": "20250409085431_gsgskkgs.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409085431_gsgskkgs.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409085431_gsgskkgs.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085431_gsgskkgs.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T08:54:31.824Z"
             },
@@ -520,9 +509,9 @@
               "DocumentIndex": 29,
               "Title": "20250409085506_gsgskkgdfsfds.cs",
               "DocumentMoniker": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
-              "RelativeDocumentMoniker": "bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
               "ToolTip": "C:\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
-              "RelativeToolTip": "bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Facultate\\An 3\\Semestrul 2\\II Proj\\bank\\backend\\bank\\Migrations\\20250409085506_gsgskkgdfsfds.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T08:55:06.896Z"
             }

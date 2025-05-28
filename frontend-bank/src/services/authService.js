@@ -16,46 +16,51 @@ const authService = {
   login: async (credentials) => {
     try {
       const response = await axios.post(`${API_URL}/login`, credentials);
-      
+      console.log('Login response:', response.data);
+
       // Store the JWT token in localStorage for subsequent requests
-      if (response.data && response.data.token) {
-        const token = response.data.token;
-        localStorage.setItem('token', token);
-        
-        // Parse the JWT payload to extract user information
+      if (response.data) {
+        const token = response.data;
+
         try {
-          // JWT structure: header.payload.signature
-          // We need the payload (second part)
           const payload = token.split('.')[1];
-          // Decode the base64 payload
           const decodedPayload = JSON.parse(atob(payload));
-          
-          // Extract user ID and role from payload
-          // According to the backend documentation, the claims are 'id' and 'role'
-          const userId = decodedPayload.id;
-          const userRole = decodedPayload.role;
-          
-          // Store user information
+          const { id, role } = decodedPayload;
+          const { username } = credentials;
+
           const userData = {
-            id: userId,
-            role: userRole,
-            // Include any other information from the payload or response
-            // that might be useful for the application
-            ...credentials // Include username from credentials
+            id,
+            role,
+            username,
+            token
           };
-          
+          console.log('Before setting user in localStorage', userData);
           localStorage.setItem('user', JSON.stringify(userData));
+          console.log('After setting user in localStorage', localStorage.getItem('user'));
+
+          localStorage.setItem('token', token);
         } catch (jwtError) {
           console.error('Error parsing JWT token:', jwtError);
-          // Fallback to storing whatever user data is in the response
-          localStorage.setItem('user', JSON.stringify(response.data.user || { username: credentials.username }));
+
+          const fallbackUserData = {
+                    username: credentials.username,
+                    token
+                  };
+
+          console.log('Before fallback setting user:', fallbackUserData);
+          localStorage.setItem('user', JSON.stringify(fallbackUserData));
+          console.log('After fallback setting user:', localStorage.getItem('user'));
+
+          localStorage.setItem('token', token);
         }
       }
-      
-      return response.data;
+
+    console.log('Stored user just before return:', JSON.parse(localStorage.getItem('user')));
+    return response.data;
     } catch (error) {
       throw error.response?.data || { message: 'An error occurred during login' };
     }
+
   },
   
   /**
@@ -102,7 +107,8 @@ const authService = {
    * @returns {String|null} - JWT token or null
    */
   getToken: () => {
-    return localStorage.getItem('token');
+  const user = JSON.parse(localStorage.getItem('user'));
+  return user?.token || null;
   }
 };
 

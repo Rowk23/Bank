@@ -105,6 +105,17 @@ const Header = () => {
                     Transactions
                   </Link>
                 </li>
+
+                <li>
+                    <Link
+                       to="/payments"
+                       onClick={() => setMobileMenuOpen(false)}
+                       className="nav-link"
+                       >
+                       Payments
+                    </Link>
+                </li>
+
                 
                 {/* Admin dashboard link - only visible for admin users */}
                 {isAdmin && (
@@ -118,6 +129,8 @@ const Header = () => {
                     </Link>
                   </li>
                 )}
+
+
                 
                 <li>
                   <button 
